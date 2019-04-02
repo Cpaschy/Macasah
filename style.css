@@ -1,0 +1,91 @@
+#slogan {
+
+  color: #000; text-shadow: #fff 1px 1px, #fff -1px -1px, #fff -1px -1px, #fff 1px 1px  ;
+  font-weight: bold;
+  font-style: oblique;
+
+}
+.haut{
+  background-color: #f0f0f0;
+}
+a {
+  color: black;
+  font-weight: bold;
+  font-size: 18px;
+  border-bottom: 2px solid #bbb;
+}
+a:hover {
+  color: black;
+  text-decoration: none;
+  height: 10%;
+}
+a:active, a:hover {
+  border-bottom: none;
+  font-weight: bold;
+}
+a:focus {
+  border-bottom: none;
+  font-weight: bold;
+}
+li {
+  border-right: 1px solid #bbb;
+}
+li:first-child {
+  border-left: 1px solid #bbb;
+}
+/* afficher au survol*/
+
+.dropdown:hover>.dropdown-menu {
+  display: block;
+}
+.dropdown>.dropdown-toggle:active {
+  /*Without this, clicking will make it sticky*/
+  pointer-events: none;
+}
+/*supression dropdown fleche*/
+
+.navbar .dropdown-toggle::after {
+  display: none;
+}
+.carousel-caption {
+  top: 30%;
+}
+.carousel-caption h1 {
+  font-size: 400%;
+}
+fieldset {
+  margin-bottom: 15px;
+  padding: 10px;
+}
+legend {
+  padding: 0px 3px;
+  font-weight: bold;
+  font-variant: small-caps;
+}
+label {
+  width: 110px;
+  vertical-align: top;
+  margin: 6px;
+}
+#fondre {
+  background: #eaeaea;
+}
+#prenom, #nom, #phone, #venu, #hvenu, #depart {
+  width: 249px !important;
+}
+/*#pied_de_page {*/
+  /*padding: 80px 30px;*/
+  /*color: white;*/
+/*}*/
+/*#foot{*/
+  /*background-color: black;*/
+/*}*/
+/*nav li :focus{*/
+
+/*background-color: #3388BB;*/
+
+/*padding: 4px 20px ;*/
+
+/*!* border-bottom:4px solid yellow; !* pour exemple *!*/
+
+/*}*/
